@@ -74,7 +74,7 @@ resource "aws_instance" "web_server" {
   monitoring    = true
   ebs_optimized = true
   root_block_device {
-    encrypted = true
+  encrypted = true
   }
 
 }
